@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Lato-Light;
+    src: url("Lato/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url("Lato/Lato-Bold.ttf");
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Lato-Light";
+    font-style: normal;
+}
+
+body{
+    background: #E5E5E5;
+} 
+
+.first {
+    background-image:linear-gradient(180deg, #100000 6.51%, rgba(0, 0, 0, 0.54) 100%), url('images/rect1.png');
+    width: 1500px;
+    height: 741px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    color: white;
+    background-size: cover;
+}
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.middle {
+    position: relative;
+    top: 100px;
+    font-weight: 600;
+    font-size: 22px;
+    width:auto;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    position: relative;
+    top: 80px;
+    left: -40px;
+    display: flex;
+    font-weight: 600;
+    font-size: 22px;
+    justify-content: right;
+}
+
+.right > button {
+    cursor: pointer;
+    position: relative;
+    top: -25px;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 18px 42px;
+    background: #00B87C;
+    border-radius: 6px;
+    border: 0px;
+}
+
+
+.img {
+    position:relative;
+    left: 8px;
+    top: 5px;
+}
+
+.left {
+    position:relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    position: relative;
+    top: 32px;    
+    justify-content: left;
+}
+
+.nav a{
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.headbox2 {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#imp {
+    font-family: "Lato-Bold";
+    height: 96px;
+    font-size: 80px;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+}
+
+#mv {
+    position: relative;
+    top: 100px;
+    font-size: 22px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+}
+
+#donate {
+    width:fit-content;
+    position: relative;
+    left: 39.5%;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    font-size: 30px;
+    border-radius: 6px;
+    padding: 25px 94px;
+}
+
+#donate:hover{
+    color: black;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.second > p{
+    position: relative;
+    left: 70px;
+    color: #FF480E;
+    font-size: 22px;
+    font-weight: 600px;
+}
+
+.second > p +  p{
+    position: relative;
+    left: 70px;
+    color: #101011;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.fig {
+    display: flex;
+    background: #00B87C;
+    border-radius: 5px;
+    width:40px;
+    height:40px;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    justify-content:center;
+}
+
+.bigtext {
+    align-items: left;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.smalltext {
+    align-items: left;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.lorem {
+    position: relative;
+    left: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 70px;
+}
+
+.lorem1 {
+    width: 283px;
+    height: 200px;
+}
+
+.lorem2 {
+    position: relative;
+    width: 283px;
+    left: 45px;
+    height: 200px;
+}
+
+.lorem3 {
+    position: relative;
+    top: -50px;
+    width: 283px;
+    height: 200px;
+}
+
+.lorem4 {
+    position: relative;
+    top: -50px;
+    left: 45px;
+    width: 283px;
+    height: 200px;
+}
+
+.lwrapper {
+    display:grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.lwrapper > img {
+    position: relative;
+    left: 600px;
+    top: -150px;
+    width: 630px;
+    height: 651px;
+}
+
+.lwrapper > .img-gradient {
+    position: relative;
+    top: -850px;
+    left: 850px;
+    height: 665px;
+    width: 630px;
+    background: rgba(0, 184, 124, 0.15);
+}
+
+.second {
+    position: relative;
+    top: 120px;
+}
