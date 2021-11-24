@@ -15,7 +15,7 @@
 }
 
 body{
-    background: #E5E5E5;
+    background: #f5f4f4;
 } 
 
 .first {
@@ -149,10 +149,14 @@ ul {
     left: 70px;
     color: #FF480E;
     font-size: 22px;
+    font-family:"Lato-Bold";
     font-weight: 600px;
 }
 
 .second > p +  p{
+    font-family:"Lato-Bold";
+    width: 515px;
+    height: 96px;
     position: relative;
     left: 70px;
     color: #101011;
@@ -233,6 +237,14 @@ ul {
     height: 651px;
 }
 
+.lwrapper > .rect6 {
+    position: relative;
+    left: -140px;
+    top: -10px;
+    width: 630px;
+    height: 651px;
+}
+
 .lwrapper > .img-gradient {
     position: relative;
     top: -850px;
@@ -242,7 +254,132 @@ ul {
     background: rgba(0, 184, 124, 0.15);
 }
 
+.lwrapper > .img-gradient2 {
+    position: relative;
+    top: -720px;
+    left: 110px;
+    height: 665px;
+    width: 630px;
+    background: rgba(0, 184, 124, 0.15);
+}
+
+.about-us > p{
+    position: relative;
+    top: -45px;
+    font-family:"Lato-Bold";
+    width: 218px;
+    height: 26px;
+    color: #FF480E;
+    font-size: 22px;
+    font-weight: 600px;
+}
+
+.about-us > p + p{
+    position: relative;
+    top: -65px;
+    color: #101011;
+    width: 515px;
+    font-family:"Lato-Bold";
+    height: 96px;
+    font-size: 40px;
+    align-items: right;
+    font-weight: 800;
+}
+
+.about-us > p + p + p{
+    position: relative;
+    top: -20px;
+    font-family:"Lato-Light";
+    width: 555px;
+    height: 156px;
+    align-items: right;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.about-us > button {
+    cursor: pointer;
+    position: relative;
+    top: 55px;
+    font-weight: 700;
+    width: 313px;
+    height: 86px;
+    font-size: 30px;
+    padding:25px 94px;
+    background: #00B87C;
+    border-radius: 6px;
+    border: 0px;
+}
+
+.about-us > button > a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-us {
+    position: relative;
+    left: 700px;
+    top: -650px;
+}
+
+
 .second {
     position: relative;
     top: 120px;
+}
+
+.third {
+    position: relative;
+    top: -450px;
+    left: 70px;
+    width: 1248px;
+    height: 466px;
+    background: #00B87C;
+    border-radius: 20px;
+}
+
+.rect7 {
+    position: relative;
+    top: -310px;
+    left: 155px;
+    width: 850px;
+    height: 566.67px;
+}
+
+.third > p {
+    position: relative;
+    top: 70px;
+    left: 70px;
+    color: white;
+    font-family: "Lato-Bold";
+    width: 569px;
+    height: 96px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.third > p + p {
+    width: 495px;
+    height: 52px;
+    font-family: "Lato-Light";
+    align-items: right;
+    font-size: 22px;
+    font-weight: 300;   
+}
+
+.third > button {
+    position: relative;
+    top: -400px;
+    left: 70px;
+    outline: none;
+    border: none;
+    background-color: #FF480E;
+    color: white;
+    font-size: 30px;
+    padding: 25px 94px;
+    font-weight: 700;
+    font-family: "Lato-Bold";
+    width: 305px;
+    height: 86px;
+    border-radius: 6px;
 }
